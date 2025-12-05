@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+@import url(https://use.typekit.net/kcd6gtr.css);
+
+:root{
+    /* colors */
+    --color-red:#481f1f;
+    --color-red-nav: #481f1fcc;
+    --color-white-nav: #FFFBEAe6;
+    --color-red-footer: #481f1fe6;
+    --color-white: #FFFBEA;
+    --color-gold: #FFD550;
+    --color-gold-pdfbox: #F2C0422b;
+    --color-background: #414045;
+    /* fonts */
+    --font-header: 'Trajan', serif;
+    --font-body: 'Merriweather', sans-serif;
+    --font-nav: 'Merriweather', light, sans-serif;
+    /* dimentions */
+    --width-full: 100%;
+    --width-12col: 1280px;
+    --grid-gap: 10px;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: var(--width-full);
+    font-family: "Trajan", serif;
+    position: relative;
+    background-color: var(--color-background);
+    margin: 0;
+}
+.container{
+    background-image: url(../img/background_main.jpg);
+    min-height: 1146px;
+    background-size: cover;
+    position: relative;
+}
+.navigation_fixed, .footer{
+    width: var(--width-full);
+}
+.hero, .body_content, .navigation_bar{
+    width: var(--width-12col);
+}
+.navigation_fixed{
+    background-color: var(--color-red-nav);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navigation_bar{
+    display: flex;
+    flex-direction: row;
+    width: var(--width-12col);
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+}
+.menu_container{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-nav);
+    width: 374px;
+}
+.menu_container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 374px;
+}
+.menu_container ul li a{
+    text-decoration: none;
+    color: var(--color-white-nav);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.clicked{
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 20px;
+}
+.hero{
+    width: var(--width-12col);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+.hero_container {
+    margin: 140px auto;
+    grid-column: 1 / span 7;
+    grid-row: auto;
+}
