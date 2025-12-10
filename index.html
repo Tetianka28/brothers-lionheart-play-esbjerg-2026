@@ -79,10 +79,29 @@
                         </linearGradient>
                     </defs>
                 </svg>
-                <button> Get a PDF Coloring book for FREE!</button>
+                <button id="open_modal_overlay"> Get a PDF Coloring book for FREE!</button>
+            </div>
+
+
+            <div id="modal_overlay" class="modal_overlay">
+                <div class="modal_overlay_content">
+                    <span class="close_button">&times;</span>
+                    <h3>Get a PDF coloring book of <span>The Brothers Lionheart</span>while waiting for the play!</h3>
+                    <div class="modal_overlay_img_container"></div>
+                    <p>Leave your email for getting the pdf file</p>
+
+                    <form class="email_form">
+                        <input type="email" name="" id="">
+                        <button type="submit">SEND</button>
+                        <p class="email_form_note">**By sharing your email adress, you agree to recieve the free pdf coloring book and one-time reminder email about the upcoming play**</p>
+                    </form>
+                    <button id="privacy_policy">Privacy Policy</button>
+                </div>
             </div>
 
         </div>
+
+
         <footer>
             <div class="footer_block">
                 <div class="footer_block_content">
@@ -131,6 +150,7 @@
 
 
     </div>
+    <script src="popup.js"></script>
 </body>
 
 </html>
