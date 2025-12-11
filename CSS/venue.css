@@ -29,6 +29,7 @@ html {
 }
 
 .hero_venue_text h1 {
+    font-family: var(--font-header);
     font-size: 40px;
     font-weight: 100;
     color: var(--color-red);

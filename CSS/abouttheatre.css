@@ -39,6 +39,7 @@ html {
 }
 
 .hero_about_theatre_text h1 {
+    font-family: var(--font-header);
     font-size: 42px;
     font-weight: 100;
     color: var(--color-white);
@@ -201,6 +202,7 @@ left: -30px;
 }
 
 .about_theatre_contact_text {
+    font-family: var(--font-body);
     font-size: 20px; 
     font-weight: 100;
     color: var(--color-white);
@@ -208,6 +210,7 @@ left: -30px;
 }
 
 .about_theatre_contact a {
+    font-family: var(--font-body);
     font-size: 16px;
     color: var(--color-white);
     text-decoration: none;
@@ -220,6 +223,7 @@ left: -30px;
 }
 
 .about_theatre_contact_address {
+    font-family: var(--font-body);
     font-size: 16px;
     line-height: 1.4;
     color: var(--color-white);
