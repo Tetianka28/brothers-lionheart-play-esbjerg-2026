@@ -192,54 +192,6 @@ html {
     --grid-gap: 1rem;
   }
 
-  .container{
-    background: none;
-    min-height: 71.625rem;
-}
-    .navigation_bar {
-        grid-template-columns: repeat(5, 1fr);
-        height: 63px;
-        padding: 19px 10px;
-        align-items: center;
-    }
-    
-    .logo {
-        grid-column: 1 / span 2;
-        display: flex;
-        align-items: center;
-    }
-
-    .logo img {
-        width: 132px; 
-        height: 24px;
-    }
-
-    .menu_container {
-        grid-column: 3 / 6;
-        display: flex;
-        align-items: center; 
-        justify-content: flex-end
-    }
-.menu_container .menu_container_hiden_mobile {
-    display: none;
-}
-
-.menu_container .menu_container_hiden_desktop {
-        display: block; 
-    }
-
-    .menu_container ul {
-   justify-content: flex-end;
-        gap: 16px; 
-        align-items: center;
-        width: auto;
-    }
-
-    .menu_container ul li a {
-        font-size: 16px;
-        display: block;
-    }
-
     .clicked { 
         font-size: 1rem !important;
     }
@@ -362,7 +314,6 @@ html {
 }
 
 .about_theatre_contact_address {
-    font-size: 18px;
+    font-size: 16px;
 }
-
 }
