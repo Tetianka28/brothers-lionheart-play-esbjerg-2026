@@ -34,7 +34,7 @@ body, html {
     margin: 0;
 }
 .container{
-    background-image: url(../img/background_main.jpg);
+    background-image: url(../img/main_picture_desktop2updated.jpg);
     min-height: 71.625rem;
     background-size: cover;
     position: relative;
@@ -473,7 +473,7 @@ body, html {
     }
 
     .hero {
-    background: linear-gradient(to bottom, transparent 95%, #302211 100%), url(../img/background_main_mob.png);
+    background: linear-gradient(to bottom, transparent 95%, #302211 100%), url(../img/main_picture_mobile_opt.jpg);
     width: var(--width-full);
     min-height: 51.438rem;
     background-size: cover;
