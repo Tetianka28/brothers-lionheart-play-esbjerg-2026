@@ -41,7 +41,7 @@ html {
 .hero_venue_text h2 {
     color: var(--color-red);
     font-family: var(--font-body);
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 0.088rem;
     font-size: 1.438rem;
     margin-top: 1rem;
@@ -56,6 +56,12 @@ html {
     font-family: var(--font-body);
     font-weight: 100;
     font-size: 1.25rem;
+}
+
+.hero_venue_text_bottom img {
+    position: absolute;
+    width: 15.563rem;
+    margin-top: 0.2rem;
 }
 
 /* Accessebility info */
@@ -182,6 +188,7 @@ html {
     }
 
     .hero_venue_text h2 {
+        font-weight: 400;
         letter-spacing: 0.088rem;
         font-size: 1.188rem;
         margin-top: 1rem;

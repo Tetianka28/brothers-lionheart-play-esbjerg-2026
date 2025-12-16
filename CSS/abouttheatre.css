@@ -50,7 +50,7 @@ html {
     letter-spacing: 0.088rem;
     font-size: 1.438rem;
     margin-top: 1rem;
-    width: 34.375rem;
+    width: 45.375rem;
 }
 
 
@@ -67,6 +67,8 @@ html {
 
 .hero_about_theatre_text_bottom img {
     position: absolute;
+    width: 15.563rem;
+    margin-top: 0.2rem;
 }
 
 .body_content_about_theatre {
@@ -227,9 +229,9 @@ html {
     }
 
     .hero_about_theatre_text h2 {
-        font-weight: 400;
+        font-weight: 300;
         letter-spacing: 0.088rem;
-        font-size: 1.188;
+        font-size: 1.188rem;
         margin-top: 1rem;
         width: 26.25rem;
     }
