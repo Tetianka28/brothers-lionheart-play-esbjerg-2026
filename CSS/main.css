@@ -603,7 +603,7 @@ body, html {
     flex-direction: column;
     text-align: left;
     justify-content: center;
-    margin-top: 3.25rem;
+    margin: 3.25rem auto;
 }
 
 .hero_text_papyrus_mobile p{
@@ -611,7 +611,7 @@ body, html {
     font-family: var(--font-body);
     color: #000000cc;
     font-weight: 400;
-     padding: 0.5rem 4rem 1rem 5.438rem;
+     padding: 0 2rem 1rem 2.438rem;
     line-height: 1.625rem;
     letter-spacing: 0.01rem;
 }
