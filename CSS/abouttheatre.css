@@ -83,6 +83,19 @@ html {
     width: var(--width-full);
 }
 
+   .read-more-button {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit; 
+    cursor: pointer; 
+    border-bottom: solid 2px var(--color-white);
+}
+
+.read-more-button:hover .hero_about_theatre_text_bottom p {
+    color: var(--color-gold);
+    border-bottom: solid 2px var(--color-gold);
+}
+
 /* About theatre */
 .block_about_theatre {
     display: flex;

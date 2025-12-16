@@ -837,4 +837,15 @@ font-size: 22px;
     display: block;
     height: auto;
 }
+
+.read-more-button {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit; 
+    cursor: pointer; 
+}
+
+.read-more-button:hover .hero_venue_text_bottom p {
+    color: var(--color-white);
+}
 }

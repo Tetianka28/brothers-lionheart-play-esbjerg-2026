@@ -142,7 +142,18 @@ html {
     margin-bottom: 0;
 }
 
+    .read-more-button {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit; 
+    cursor: pointer; 
+    border-bottom: solid 2px var(--color-red-nav);
+}
 
+.read-more-button:hover .hero_venue_text_bottom p {
+    color: var(--color-white);
+    border-bottom: solid 2px var(--color-white);
+}
 @media (max-width: 480px) {
     :root {
         --width-12col: min(100% - 1rem, 480px);
@@ -193,17 +204,6 @@ html {
         font-size: 1.188rem;
         margin-top: 1rem;
         width: 28rem;
-    }
-
-    .hero_venue_text_bottom {
-        margin-top: 3.75rem;
-    }
-
-    .hero_venue_text_bottom p {
-        color: var(--color-red);
-        font-family: var(--font-body);
-        font-weight: 100;
-        font-size: 1.25rem;
     }
 
     .hero_venue_text_bottom {
@@ -292,4 +292,7 @@ html {
     .info_item:last-child .divider {
         margin-bottom: 0;
     }
+
+
 }
+
